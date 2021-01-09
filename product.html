@@ -1,0 +1,353 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- 网站TDK-标题 title   （三大标签SEO(搜素引擎)优化，里面内容有专门SEO人员准备）-->
+    <title>产品详情页-综合网购首选-正品低价、品质保障、配送及时、轻松购物！
+    </title>
+    <!-- 网站TDK-网站说明 description -->
+    <meta name="description" content="品优购商城-专业的综合网上购物商城，销售家电、数码通讯、电脑、家具百货、服装服饰、母婴、图书、食品等数万个品牌优质商品.便捷、诚信的服务，为您提供愉悦的网上购物体验！" />
+    <!-- 网站TDK-关键字 keywords -->
+    <meta name="keywords" content="网上购物,网上商城,手机,笔记本,电脑,MP3,CD,VCD,DV,相机,数码,配件,手表,存储卡,品优购" />
+    <!-- HTML页面引入favition图标（favition图标放在网站根目录下） -->
+    <link rel="shortcut icon" href="favicon.ico" />
+    <!-- 引入我们初始化样式文件 -->
+    <link rel="stylesheet" href="css/base.css">
+    <!-- 引入我们公共的样式文件 -->
+    <link rel="stylesheet" href="css/common.css">
+    <!-- 引入自己的产品详情页css样式文件 -->
+    <link rel="stylesheet" href="css/product.css">
+    <!-- 引入我们的js文件 -->
+    <script src="js/product.js"></script>
+</head>
+
+<body>
+    <!-- 快捷导航模块 start-->
+    <section class="shortcut">
+        <div class="w">
+            <div class="fl">
+                <ul>
+                    <li>品优购欢迎您！&nbsp;</li>
+                    <li>
+                        <a href="login.html">请登录</a> &nbsp; <a href="register.html" class="style_red">免费注册</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="fr">
+                <ul>
+                    <li>我的订单</li>
+                    <li></li>
+                    <li class="arrow-icon">我的品优购</li>
+                    <li></li>
+                    <li>品优购会员</li>
+                    <li></li>
+                    <li>企业采购</li>
+                    <li></li>
+                    <li class="arrow-icon">关注品优购</li>
+                    <li></li>
+                    <li class="arrow-icon">客户服务</li>
+                    <li></li>
+                    <li class="arrow-icon">网站导航</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+    <!-- 快捷导航模块 end-->
+    <!-- header头部模块制作 start -->
+    <header class="header w">
+        <!-- logo模块 -->
+        <div class="logo">
+            <h1><a href="index.html" title="品优购商城">品优购商城</a></h1>
+        </div>
+        <!-- search搜索模块 -->
+        <div class="search">
+            <input type="search" name="" id="" placeholder="语言开发">
+            <button>搜索</button>
+        </div>
+        <!-- hotwords模块制作 -->
+        <div class="hotwords">
+            <a href="#" class="style_red">优惠购首发</a>
+            <a href="#">亿元优惠</a>
+            <a href="#">9.9元团购</a>
+            <a href="#">美满99减30</a>
+            <a href="#">办公用品</a>
+            <a href="#">电脑</a>
+            <a href="#">通信</a>
+        </div>
+        <!-- 购物车模块 -->
+        <a href="car.html">
+            <div class="shopcar">
+                我的购物车
+                <i class="count">3</i>
+            </div>
+        </a>
+    </header>
+    <!-- header头部模块制作 end -->
+    <!-- nav模块制作 start -->
+    <nav class="nav">
+        <div class="w">
+            <div class="dropdown">
+                <div class="dt">全部商品分类</div>
+                <div class="dd">
+                    <ul>
+                        <li><a href="#">家用电器</a></li>
+                        <li><a href="list.html">手机</a>、<a href="#">数码</a>、<a href="#">通信</a></li>
+                        <li><a href="#">电脑</a>、<a href="#">办公</a></li>
+                        <li><a href="#">家居</a>、<a href="#">家具</a>、<a href="#">家装</a>、<a href="#">厨具</a></li>
+                        <li><a href="#">男装</a>、<a href="#">女装</a>、<a href="#">童装</a>、<a href="#">内衣</a></li>
+                        <li><a href="#">个人化妆</a>、<a href="#">清洁用品</a>、<a href="#">宠物</a></li>
+                        <li><a href="#">鞋靴</a>、<a href="#">箱包</a>、<a href="#">珠宝</a>、<a href="#">奢侈品</a></li>
+                        <li><a href="#">运动户外</a>、<a href="#">钟表</a></li>
+                        <li><a href="#">汽车</a>、<a href="#">汽车用品</a></li>
+                        <li><a href="#">母婴</a>、<a href="#">玩具乐器</a></li>
+                        <li><a href="#">食品</a>、<a href="#">酒类</a>、<a href="#">生鲜</a>、<a href="#">特产</a></li>
+                        <li><a href="#">医药保健</a></li>
+                        <li><a href="#">图书</a>、<a href="#">音像</a>、<a href="#">电子书</a></li>
+                        <li><a href="#">彩票</a>、<a href="#">旅游</a>、<a href="#">充值</a>、<a href="#">票务</a></li>
+                        <li><a href="#">理财</a>、<a href="#">众筹</a>、<a href="#">白条</a>、<a href="#">保险</a></li>
+                    </ul>
+
+                </div>
+            </div>
+            <div class="navitems">
+                <ul>
+                    <li><a href="#">服装城</a></li>
+                    <li><a href="#">美妆馆</a></li>
+                    <li><a href="#">品优超市</a></li>
+                    <li><a href="#">全球购</a></li>
+                    <li><a href="#">闪购</a></li>
+                    <li><a href="#">团购</a></li>
+                    <li><a href="#">拍卖</a></li>
+                    <li><a href="#">有趣</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- nav模块制作 end -->
+
+    <!-- content内容模块制作 start-->
+    <div class="w clearfix">
+        <div class="goods">
+            <div class="goods_hd">
+                <strong><a href="#">手机、数码、通讯</a></strong>
+                <span><a href="#">手机</a> </span>
+                <span><a href="#"> Apple苹果</a></span>
+                <span><a href="#">iphone 6S Plus系类</a> </span>
+            </div>
+            <div class="goods_product">
+                <img src="upload/product.png" alt="">
+                <div class="mask"></div>
+                <div class="big">
+                    <img src="upload/big.jpg" alt="" class="bigImg">
+                </div>
+            </div>
+            <div class="goods_bd">
+                <img src="images/left.png" alt="">
+                <img src="upload/project.png" alt="">
+                <img src="upload/pro_type.png" alt="">
+                <img src="images/right.png" alt="">
+                <div class="square"></div>
+            </div>
+            <div class="goods_ft">
+                <ul>
+                    <li>商品编号：0468256644</li>
+                    <li>
+                        <a href="#"><img src="images/goods_03.png" alt=""> 分享 </a>
+                    </li>
+                    <li>
+                        <a href="#"><img src="images/goods_02.png" alt=""> 关注 </a> 5000 </li>
+                    <li>
+                        <a href="#"><img src="images/goods_01.png" alt=""> 对比 </a>
+                    </li>
+                </ul>
+            </div>
+
+        </div>
+        <div class="introduce">
+            <div class="introduce_hd">
+                <h3>Apple iPhone 6s（A1700）64G玫瑰金色 移动通信电信4G手机</h3>
+                <h4>推荐选择下方[移动优惠购],手机套餐齐搞定,不用换号,每月还有花费返</h4>
+            </div>
+            <div class="introduce_sale">
+                <div class="price">
+                    <h5>价 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 格</h5>
+                    <i>￥5299.00</i>
+                    <strong>降价通知</strong>
+                    <div class="evaluate">累计评价<span><a href="#">612188</a></span></div>
+                </div>
+                <div class="promotion">
+                    <section>
+                        <div>
+                            <h5>促 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 销</h5>
+                            <span class="square_red">加购价</span> 满999.00另加20.00元，或满1999.00另加30.00元，或满2999.00另加40.00元，即可在购物车换</div>
+                        <div> 购热销商品 详情 》</div>
+                    </section>
+                </div>
+            </div>
+            <div class="introduce_bd">
+                <section>
+                    <h5>支 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 持</h5>
+                    <span>以旧换新，闲置手机回收 4G套餐超值抢 礼品购</span>
+                </section>
+                <section>
+                    <div>
+                        <h5>配 &nbsp;送&nbsp; 至</h5>
+                        <span><a href="#">北京海淀区中关</a>  有货 支持 99元免运费 |货到付款 |211限时达 </span>
+                    </div>
+                    <div class="free">由自营发货，并提供售后服务。11:00前完成下单，预计 <i>今天（08月10日）送达</i> </div>
+                </section>
+            </div>
+            <div class="introduce_choice">
+                <ul>
+                    <li>
+                        <h5>选择颜色</h5>
+                        <button>金色</button>
+                        <button>银色</button>
+                        <button>黑色</button>
+                        <button class="frame_red">玫瑰金</button>
+                    </li>
+                    <li>
+                        <h5>选择版本</h5>
+                        <button class="frame_red">公开版</button>
+                        <button>移动4G</button>
+                    </li>
+                    <li>
+                        <h5>选择容量</h5>
+                        <button>32G</button>
+                        <button class="frame_red">64G</button>
+                        <button>128G</button>
+                    </li>
+                    <li>
+                        <h5>购买方式</h5>
+                        <button class="frame_red">官方标配</button>
+                        <button class="large">移动优惠购</button>
+                        <button class="large">电信优惠购</button>
+                    </li>
+                    <li>
+                        <h5>套 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 装</h5>
+                        <button>保护套装</button>
+                        <button>充电套装</button>
+                    </li>
+                </ul>
+                <div class="underline"></div>
+            </div>
+            <div class="introduce_ft">
+                <div class="number">
+                    <div class="number_bd">1</div>
+                    <div class="jiahao"><button>&#43;</button></div>
+                    <div class="jianhao"><button>&#8211;</button></div>
+                </div>
+                <button class="buy_car">加入购物车</button>
+            </div>
+        </div>
+
+    </div>
+    <!-- content内容模块制作 end -->
+
+    <!-- 底部模块的制作 start -->
+    <footer class="footer">
+        <div class="w">
+            <div class="mod_service">
+                <ul>
+                    <li>
+                        <h5></h5>
+                        <div class="service_txt">
+                            <h4>正品保障</h4>
+                            <p>正品保障,提供发票</p>
+                        </div>
+                    </li>
+                    <li>
+                        <h5></h5>
+                        <div class="service_txt">
+                            <h4>极速物流</h4>
+                            <p>极速物流,急速送达</p>
+                        </div>
+                    </li>
+                    <li>
+                        <h5></h5>
+                        <div class="service_txt">
+                            <h4>无忧售后</h4>
+                            <p>7天无理由退换货</p>
+                        </div>
+                    </li>
+                    <li>
+                        <h5></h5>
+                        <div class="service_txt">
+                            <h4>特色服务</h4>
+                            <p>私人定制家电套餐</p>
+                        </div>
+                    </li>
+                    <li>
+                        <h5></h5>
+                        <div class="service_txt">
+                            <h4>帮助中心</h4>
+                            <p>您的购物指南</p>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+            <div class="mod_help">
+                <dl>
+                    <dt>购物指南</dt>
+                    <dd><a href="#">购物流程</a></dd>
+                    <dd><a href="#">会员介绍</a></dd>
+                    <dd><a href="#">生活旅行/团购</a></dd>
+                    <dd><a href="#">常见问题</a></dd>
+                    <dd><a href="#">大家电</a></dd>
+                    <dd><a href="#">联系客服</a></dd>
+                </dl>
+                <dl>
+                    <dt>配送方式</dt>
+                    <dd><a href="#">上门自提</a></dd>
+                    <dd><a href="#">211限时达</a></dd>
+                    <dd><a href="#">配送服务查询</a></dd>
+                    <dd><a href="#">配送费收取标准</a></dd>
+                    <dd><a href="#">海外配送</a></dd>
+                </dl>
+                <dl>
+                    <dt>支付方式</dt>
+                    <dd><a href="#">货到付款</a></dd>
+                    <dd><a href="#">在线支付</a></dd>
+                    <dd><a href="#">分期付款</a></dd>
+                    <dd><a href="#">邮局汇款</a></dd>
+                    <dd><a href="#">公司转账</a></dd>
+                </dl>
+                <dl>
+                    <dt>售后服务</dt>
+                    <dd><a href="#">售后政策</a></dd>
+                    <dd><a href="#">价格保护</a></dd>
+                    <dd><a href="#">退款说明</a></dd>
+                    <dd><a href="#">返修/退换货</a></dd>
+                    <dd><a href="#">取消订单</a></dd>
+                </dl>
+                <dl>
+                    <dt>特色服务</dt>
+                    <dd><a href="#">夺宝岛</a></dd>
+                    <dd><a href="#">DIY装机</a></dd>
+                    <dd><a href="#">延保服务</a></dd>
+                    <dd><a href="#">品优购E卡</a></dd>
+                    <dd><a href="#">品优购通信</a></dd>
+                </dl>
+                <dl>
+                    <dt>帮助中心</dt>
+                    <dd>
+                        <img src="images/wx_cz.jpg" alt=""> 品优购客户端
+                    </dd>
+                </dl>
+            </div>
+            <div class="mod_copyright">
+                <div class="links">
+                    <a href="#">关于我们</a> | <a href="#">联系我们</a> | <a href="#">联系客服</a> | <a href="#">商家入驻</a> | <a href="#">营销中心</a> | <a href="#">手机品优购</a> | <a href="#">友情链接</a> | <a href="#">销售联盟</a> | <a href="#">品优购社区</a> | <a href="#">品优购公益</a>                    | <a href="#">English Site</a> | <a href="#">Contact U</a>
+                </div>
+                <div class="copyright">
+                    地址：北京市昌平区建材城西路金燕龙办公楼一层 邮编：100096 电话：400-618-4000 传真：010-82935100 邮箱: zhanghj+itcast.cn <br> 京ICP备08001421号京公网安备110108007702
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- 底部模块的制作 end -->
+</body>
+
+</html>

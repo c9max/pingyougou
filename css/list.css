@@ -1,0 +1,153 @@
+/* 列表页专有css */
+
+.nav {
+    /* 隐藏因为行高设置成49多余的部分,会对主体部分产生影响 */
+    overflow: hidden;
+}
+
+.sk {
+    position: absolute;
+    left: 190px;
+    top: 40px;
+    border-left: 1px solid #c81523;
+    padding: 3px 0 0 14px;
+}
+
+.sk_list {
+    float: left;
+}
+
+.sk_list ul li {
+    float: left;
+}
+
+.sk_list ul li a {
+    display: block;
+    line-height: 47px;
+    padding: 0 30px;
+    font-weight: 700;
+    font-size: 16px;
+    color: #000;
+}
+
+.sk_con {
+    float: left;
+}
+
+.sk_con ul li {
+    float: left;
+}
+
+.sk_con ul li a {
+    display: block;
+    /* 将行高调成大于高度（49>47）让文字偏下底部对齐 */
+    line-height: 49px;
+    padding: 0 20px;
+    font-size: 14px;
+}
+
+.sk_con ul li:last-child a::after {
+    content: '\ea52';
+    font-family: 'icomoon';
+}
+
+.sk_bd ul li {
+    /* 图片溢出隐藏 */
+    overflow: hidden;
+    float: left;
+    margin-right: 13px;
+    width: 290px;
+    height: 460px;
+    /* 为了不鼠标点击时候抖动,添加了边框导致变大而造成的;直接设置透明色边框 */
+    border: 1px solid transparent;
+}
+
+.sk_bd ul li:nth-child(4n) {
+    margin-right: 0;
+}
+
+.sk_bd ul li:hover {
+    border-color: #c81523;
+}
+
+.sk_bd ul li a img {
+    width: 290px;
+    height: 297px;
+}
+
+.sk_bd ul li .type {
+    display: inline-block;
+    width: 290px;
+    height: 52px;
+    font-size: 14px;
+    color: #666666;
+    text-align: center;
+    padding-top: 6px;
+}
+
+.sk_bd ul li .price {
+    width: 180px;
+    margin: 0 auto;
+}
+
+.sk_bd ul li .price span {
+    font-size: 22px;
+    color: #e60012;
+    padding-left: 15px;
+}
+
+.sk_bd ul li .price i {
+    font-size: 16px;
+    color: #a4a4a4;
+    margin-left: 30px;
+    text-decoration: line-through;
+}
+
+.surplus {
+    height: 30px;
+    line-height: 30px;
+}
+
+.surplus .bar {
+    float: left;
+    width: 130px;
+    height: 15px;
+    border: 1px solid #ed282e;
+    border-radius: 7.5px;
+    margin-top: 8px;
+}
+
+.surplus .bar_in {
+    width: 87%;
+    height: 100%;
+    border-top-left-radius: 7.5px;
+    border-bottom-left-radius: 7.5px;
+    background-color: #ed282e;
+}
+
+.surplus span {
+    float: left;
+    font-size: 14px;
+    color: #666666;
+    margin: 0 10px 0 15px;
+}
+
+.surplus h5 {
+    float: right;
+    font-size: 14px;
+    color: #666;
+    font-weight: 400;
+    margin: -1px 5px 0 0;
+}
+
+.surplus h5 i {
+    font-size: 16px;
+    color: #e12228;
+}
+
+.sk_bd ul li button {
+    width: 290px;
+    height: 45px;
+    background-color: #e12228;
+    color: #fff;
+}
